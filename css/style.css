@@ -34,7 +34,7 @@ h2{
     height: 16rem;
     border-radius: 1.2rem;
     box-shadow: 0 7px 25px rgba(0,0,0,8%);
-    transition: 0.5s;
+    transition: 0.8s;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
@@ -100,7 +100,7 @@ h2{
     transform: translateY(20px);
 }
 
-.profile-card .profile-content .profile-details h2 {
+.profile-card .profile-content .profile-details h1 {
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -109,7 +109,7 @@ h2{
     padding-bottom: 20px;
 }
 
-.profile-card .profile-content .profile-details h3 {
+.profile-card .profile-content .profile-details h2 {
     display: flex;
     font-size: 2.4rem;
     padding-bottom: 1rem;
@@ -127,7 +127,7 @@ h2{
 .profile-data .card .iconBx {
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 0.5rem;
     color: black;
 }
 
