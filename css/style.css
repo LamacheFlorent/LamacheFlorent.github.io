@@ -5,7 +5,7 @@ html{
 body{
     min-height: 100vh;
     margin: 0;
-    padding: 10%;
+    padding: 20%;
     box-sizing: border-box;
 }
 
@@ -37,7 +37,7 @@ h2{
     transition: 0.8s;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
+    margin-top: 10rem;
     background: white;
     margin-bottom: 1.2rem;
     border: 4px solid white;  
@@ -139,7 +139,7 @@ h2{
 
 .profile-data .card {
     position: relative;
-    background: var(--white);
+    background: white;
     height: 1.8rem;
     border-radius: 1.2rem;
     display: flex;
@@ -214,7 +214,7 @@ h2{
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
-    color: var(--black2);
+    color: black;
     -webkit-text-stroke: 1px violet;
     color: transparent;
 }
@@ -531,7 +531,7 @@ h2{
     .hardskills {
         display: flex;
         flex-direction: column;
-        /* width: 90vw; */
+        width: 90vw;
     }
 
     .skill {
@@ -559,7 +559,7 @@ h2{
     }
 }
 
-
+/* SECTION PRESENTATION */
 .about_me {
     position: relative;
     width: 65%;
