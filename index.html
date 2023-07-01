@@ -26,10 +26,10 @@
                     <div class="navbar-nav">
                       <a class="nav-link" aria-current="page" href="#">Accueil</a>
                       <a class="nav-link" aria-current="page" href="#competence">Compétences</a>
-                      <a class="nav-link" aria-current="page" href="#">Diplômes</a>
+                      <a class="nav-link" aria-current="page" href="#">Formations</a>
+                      <!-- <a class="nav-link" aria-current="page" href="#">Portfolio</a> -->
                       <a class="nav-link" aria-current="page" href="#">Expériences</a>
-                      <a class="nav-link" aria-current="page" href="#">Loisirs</a>
-                      <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                      <!-- <a class="nav-link" aria-current="page" href="#">Loisirs</a> -->
                       <a class="nav-link" aria-current="page" href="#">Contacts</a>
                     </div>
                   </div>
@@ -37,6 +37,11 @@
               </nav>
         </section>
     </header>
+    <div class="topbtn">
+        <a href="#">
+            <img src="./img/icons/circlearrowup_121877.png" alt="fleche vers le haut" id="arrow">
+        </a>
+    </div>
     <section class="accueil" tabindex="0">
         <div class="profile-card">
             <div class="profile">
@@ -144,14 +149,12 @@
                         <div class="imgLang">
                             <img class="iconLang" src="./img/icons/france_flag_icon_228673.png" alt="français">
                         </div>
-                        
                         <span class="lang">Français: langue maternelle</span>
                     </div>
                     <div class="competenceLang">
                         <div class="imgLang">
                             <img class="iconLang" src="./img/icons/gb_flag_great_britain_england_union_jack_english_icon_228674.png" alt="anglais">
                         </div>
-                        
                         <span class="lang">Anglais: niveau professionnel</span>
                     </div>
                     <div class="competenceLang">
@@ -161,10 +164,70 @@
                         <span class="lang">Allemand: notions</span>
                     </div>
                 </div>
+                <h2 class="competence-title">Soft skills</h2>
+                <div id="softSkill">
+                    <ul>
+                        <li>Rigoureux</li>
+                        <li>Polyvalent</li>
+                        <li>Ponctuel</li>
+                        <li>Capacité d'écoute</li>
+                        <li>Travail d'équipe</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
+    <section id="Formations">
+        <h2 class="competence-title">Formations</h2>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  O'Clock - Formation développeur web
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="italic">(798h) en téléprésentiel</p>
+                  <ul>
+                    <li>Du 27 mars 2023 au 11 septembre 2023</li>
+                    <li>3 mois de socle: HTML, CSS, JS, PHP, POO, MVC, Laravel</li>
+                    <li>1 mois de spécialisation Symfony</li>
+                    <li>1 mois d'élaboration de projet</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  BTS hôtellerie restauration option A gestion et mercatique 
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="italic"> Douvres-la-Délivrande</p> <br>
+                  <p>De septembre 2013 à mai 2016</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+    </section>
 
 </body>
 </html>

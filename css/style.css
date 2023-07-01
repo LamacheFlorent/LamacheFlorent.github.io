@@ -6,6 +6,28 @@ body{
     background-color: #0A1828;
 }
 
+.topbtn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 10001;
+    border-radius: 1.4rem;
+    box-shadow: 0 7px 25px rgba(0,0,0,8%);
+}
+
+#arrow{
+    width: 3rem;
+    height: 3rem;
+}
+
 /* SECTION HEADER */
 
 .section-header{
@@ -338,3 +360,19 @@ h3{
 .lang{
     padding-top: 1rem;
 }
+
+ul{
+    background-color: #01243C;
+
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 1.2rem;
+    padding: 5rem;
+
+    list-style: none;
+    text-align: center;
+    font-size: larger;
+}
+
+/* SECTION FORMATIONS */
+
