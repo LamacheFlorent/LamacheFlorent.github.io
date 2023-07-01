@@ -25,7 +25,7 @@
                   <div class=" navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                       <a class="nav-link" aria-current="page" href="#">Accueil</a>
-                      <a class="nav-link" aria-current="page" href="#">Compétences</a>
+                      <a class="nav-link" aria-current="page" href="#competence">Compétences</a>
                       <a class="nav-link" aria-current="page" href="#">Diplômes</a>
                       <a class="nav-link" aria-current="page" href="#">Expériences</a>
                       <a class="nav-link" aria-current="page" href="#">Loisirs</a>
@@ -37,13 +37,11 @@
               </nav>
         </section>
     </header>
-
-    <section class="accueil">
+    <section class="accueil" tabindex="0">
         <div class="profile-card">
             <div class="profile">
                 <img src="./img/WIN_20230525_07_40_18_Pro2.jpg" alt="photo de profil" id="profile-img">
             </div>
-            
             <div class="profile-content">
                 <div class="profile-details">
                     <div id="presentation">
@@ -86,156 +84,87 @@
             </div>
         </div>
     </section>
-
-
-
-
-    <!-- <h1>Bonjour, bienvenue sur ma page !</h1>
-    <section id="index">
-        <div class="profile-card">
-            <div class="profile-imgBx">
-                <img src="./img/WIN_20230627_16_17_09_Pro.jpg" alt="photo de profil" id="profile-imgBx">
-            </div>
-            <div class="profile-content">
-                <div class="profile-details">
-                    <h2>Florent Lamache<br></h2>
-                    <h3>Développeur Web Backend</h3>
-                    <div class="profile-data">
-                        <div class="card">
-                            <div class="iconBx">
-                                <img src="./img/icons/3586361-location-map-navigation-pointer_107948.png" alt="localisation">
-                            </div>
-                            <div class="details"> Caen (14)</div>
-                        </div>
-                        <div class="card">
-                            <div class="iconBx">
-                                <img src="./img/icons/1904660-email-envelope-letter-mail-message-post-send_122510.png" alt="email">
-                            </div>
-                            <div class="details">
-                                <a href="mailto:florentlamache@gmail.com"> florentlamache@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="iconBx">
-                                <img src="./img/icons/phone-handset_icon-icons.com_48252.png" alt="telephone">
-                            </div>
-                            <div class="details"> 07.67.17.95.68</div>
-                        </div>
-                    </div>
-                    <h3>Contacts</h3>
-                    <div class="profile-cardBox">
-                        <div class="flip-card">
-                            <a href="https://www.linkedin.com/in/florentlamache/" target="_blank">
-                                <div class="iconBx"> 
-                                    <img src="./img/icons/linkedin_socialnetwork_17441.png" alt="mon Linkedin">
-                                    <span class="text">Linkedin</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="flip-card">
-                            <a href="#" target="_blank">
-                                <div class="iconBx">
-                                    <img src="./img/icons/4288584andbusinessfinancepersonalportfolioprofileresume-115772_115741.png" alt="mon portfolio">
-                                    <span class="text">Portfolio</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="flip-card">
-                            <a href="https://github.com/LamacheFlorent" target="_blank">
-                                <img src="./img/icons/github-logo_icon-icons.com_73546.png" alt="mon github">
-                                <span class="text">Github</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="presentation">
-        <div class="about_me">
-            <div class="details">
-                
-                <div class="wrapper">
-                    <div class="rotating-text">
-                        <p>Je suis développeur web</p>
-                        <p>
-                          <span class="word alizarin">Backend PHP</span>
-                          <span class="word wisteria">Symfony</span>
-                          <span class="word peter-river">Frontend Javascript</span>
-                        </p>
-                    </div>
-                    <div class="static-txt">Je suis un développeur web</div>
-                    <ul class="dynamic-txts">
-                        <li><span>Backend PHP</span></li>
-                        <li><span>Symfony</span></li>
-                        <li><span>Frontend Javascript</span></li>
-                    </ul>
-                    </div>
-                </div>
-            
-                <p>Passionné par le développement web, en particulier du côté backend, je vous mets à votre disposition mes compétences. Vous trouverez sur cette page les liens vers mon compte linkedin, mon compte github, mon portfolio. Vous trouverez également mes coordonnées.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills">
+    <section id="competences" tabindex="0">
         <div class="hardskills">
             <div class="skill hardskills-card">
-                <h2>Compétences Techniques</h2>
+                <h2 class="competence-title">Compétences Techniques</h2>
                 <div class="progress-card">
-                    <div class="card">
-                        <img src="./img/icons/file_type_html_icon_130541.png" alt="HTML5">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/file_type_html_icon_130541.png" alt="HTML5">
                         <span class="text">HTML5</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/file_type_css_icon_130661.png" alt="CSS3">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/file_type_css_icon_130661.png" alt="CSS3">
                         <span class="text">CSS3</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/file_type_js_official_icon_130509.png" alt="JavaScript">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/file_type_js_official_icon_130509.png" alt="JavaScript">
                         <span class="text">JavaScript</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/bootstrap_plain_logo_icon_146619.png" alt="Bootstrap">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/bootstrap_plain_logo_icon_146619.png" alt="Bootstrap">
                         <span class="text">BootStrap</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/file_type_php_icon_130266.png" alt="PHP">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/file_type_php_icon_130266.png" alt="PHP">
                         <span class="text">PHP</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/prog-symfony_icon-icons.com_50769.png" alt="Symfony">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/prog-symfony_icon-icons.com_50769.png" alt="Symfony">
                         <span class="text">Symfony</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/laravel_icon_135451.png" alt="Laravel">
-                        <span class="text">Laravel</span>
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/laravel_icon_135451.png" alt="Laravel">
+                        <span class="text">Laravel</span>  
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/mysql_original_wordmark_logo_icon_146417.png" alt="MySQL">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/mysql_original_wordmark_logo_icon_146417.png" alt="MySQL">
                         <span class="text">MySQL</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/github-logo_icon-icons.com_73546.png" alt="Github">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/github-logo_icon-icons.com_73546.png" alt="Github">
                         <span class="text">Github</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/file_type_vscode_icon_130084.png" alt="Vscode">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/file_type_vscode_icon_130084.png" alt="Vscode">
                         <span class="text">Vscode</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/wordpress_logo_icon_167953.png" alt="Wordpress">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/wordpress_logo_icon_167953.png" alt="Wordpress">
                         <span class="text">Wordpress</span>
                     </div>
-                    <div class="card">
-                        <img src="./img/icons/api_icon_129131.png" alt="API">
+                    <div class="competenceCard">
+                        <img class="iconComp" src="./img/icons/api_icon_129131.png" alt="API">
                         <span class="text">API</span>
                     </div>
                 </div>
+                <h2 class="competence-title">Langues</h2>
+                <div id="langues">
+                    <div class="competenceLang">
+                        <div class="imgLang">
+                            <img class="iconLang" src="./img/icons/france_flag_icon_228673.png" alt="français">
+                        </div>
+                        
+                        <span class="lang">Français: langue maternelle</span>
+                    </div>
+                    <div class="competenceLang">
+                        <div class="imgLang">
+                            <img class="iconLang" src="./img/icons/gb_flag_great_britain_england_union_jack_english_icon_228674.png" alt="anglais">
+                        </div>
+                        
+                        <span class="lang">Anglais: niveau professionnel</span>
+                    </div>
+                    <div class="competenceLang">
+                        <div class="imgLang">
+                            <img class="iconLang" src="./img/icons/germany_flag_icon_228675.png" alt="allemand">
+                        </div>
+                        <span class="lang">Allemand: notions</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </section> -->
+    </section>
+
 
 </body>
 </html>
