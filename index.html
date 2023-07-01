@@ -5,15 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/app.js" defer></script>
+    <script src="./js/effect.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="./js/filter.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Présentation</title>
 </head>
 <body>
+    <header>
+        <section class="section-header">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <h2 class="title-name">Florent Lamache</h2>
+                  <div class=" navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                      <a class="nav-link" aria-current="page" href="#">Compétences</a>
+                      <a class="nav-link" aria-current="page" href="#">Diplômes</a>
+                      <a class="nav-link" aria-current="page" href="#">Expériences</a>
+                      <a class="nav-link" aria-current="page" href="#">Loisirs</a>
+                      <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                      <a class="nav-link" aria-current="page" href="#">Contacts</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </section>
+    </header>
+
+    <section class="accueil">
+        <div class="profile-card">
+            <div class="profile">
+                <img src="./img/WIN_20230525_07_40_18_Pro2.jpg" alt="photo de profil" id="profile-img">
+            </div>
+            
+            <div class="profile-content">
+                <div class="profile-details">
+                    <div id="presentation">
+                        <h3>Bienvenue</h3>
+                        <p id="accroche">Je m'appelle Florent,  passionné par le développement web, plus spécifiquement du côté backend, je souhaite mettre mes compétences à votre disposition.</p>
+                    </div>
+                    <div class="informations">
+                        <h3>Informations</h3>
+                    <div class="profile-data">
+                        <div id="location" class="card">
+                            <p id="tooltip-text">Je suis ouvert à l'idée de déménager et de travailler dans toute la france métropolitaine.</p>
+                            <div  class="details"> Caen (14)</div>
+                        </div>
+                        <div class="card">
+                            <div class="details">
+                                <a href="mailto:florentlamache@gmail.com"> florentlamache@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="details"> 07.67.17.95.68</div>
+                        </div>
+                    </div>
+                </div>    
+                    <div class="profile-cardBox">
+                        <div class="flip-card">
+                            <a href="https://www.linkedin.com/in/florentlamache/" target="_blank">
+                                 
+                                    <img src="./img/icons/linkedin_socialnetwork_17441.png" alt="mon Linkedin" class="iconBx">
+                                    <span class="text">Linkedin</span>
+                            </a>
+                        </div>
+                        <div class="flip-card">
+                            <a href="https://github.com/LamacheFlorent" target="_blank">
+                                <img src="./img/icons/github-logo_icon-icons.com_73546.png" alt="mon github" class="iconBx">
+                                <span class="text">Github</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- <h1>Bonjour, bienvenue sur ma page !</h1>
     <section id="index">
         <div class="profile-card">
             <div class="profile-imgBx">
@@ -21,8 +98,8 @@
             </div>
             <div class="profile-content">
                 <div class="profile-details">
-                    <h1>Florent Lamache<br></h1>
-                    <h2>Développeur Web Backend</h2>
+                    <h2>Florent Lamache<br></h2>
+                    <h3>Développeur Web Backend</h3>
                     <div class="profile-data">
                         <div class="card">
                             <div class="iconBx">
@@ -78,7 +155,7 @@
     <section id="presentation">
         <div class="about_me">
             <div class="details">
-                <h3>Bonjour, bienvenue sur ma page !</h3>
+                
                 <div class="wrapper">
                     <div class="rotating-text">
                         <p>Je suis développeur web</p>
@@ -88,13 +165,13 @@
                           <span class="word peter-river">Frontend Javascript</span>
                         </p>
                     </div>
-                    <!-- <div class="static-txt">Je suis un développeur web</div>
+                    <div class="static-txt">Je suis un développeur web</div>
                     <ul class="dynamic-txts">
                         <li><span>Backend PHP</span></li>
                         <li><span>Symfony</span></li>
                         <li><span>Frontend Javascript</span></li>
                     </ul>
-                    </div> -->
+                    </div>
                 </div>
             
                 <p>Passionné par le développement web, en particulier du côté backend, je vous mets à votre disposition mes compétences. Vous trouverez sur cette page les liens vers mon compte linkedin, mon compte github, mon portfolio. Vous trouverez également mes coordonnées.</p>
@@ -158,7 +235,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 </body>
 </html>
