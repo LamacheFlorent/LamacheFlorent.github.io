@@ -591,6 +591,22 @@ h3{
     height: 5rem;
   }
 
+  .textInt{
+    display: flex;
+    align-self: center;
+  }
+
+  .italInt{
+    color: #DEB992;
+    text-align: center;
+    font-style: italic;
+
+    margin-left: 1rem;
+
+    display: flex;
+    align-self: center;
+  }
+
   /* SECTION CONTACTS */
 
   footer{
