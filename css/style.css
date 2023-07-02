@@ -361,7 +361,7 @@ h3{
     padding-top: 1rem;
 }
 
-ul{
+#compLang{
     background-color: #01243C;
 
     margin-right: 20%;
@@ -376,3 +376,174 @@ ul{
 
 /* SECTION FORMATIONS */
 
+#formations{
+    background-color: #001F33;
+    color: #DEB992;
+
+    margin: 1%;
+    padding-bottom: 25%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#formation-title{
+    color: #DEB992;
+
+    margin: 2%;
+
+    text-align: center;
+}
+
+.accordion-header {
+  background-color: #01243C;
+  color: #DEB992;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion-header:hover {
+  background-color: #01243C;
+}
+
+.accordion-header i {
+  margin-right: 10px;
+}
+
+.accordion-content {
+  padding: 0 18px;
+  background-color: #001F33;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-container{
+    background-color: #01243C;
+
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 1.2rem;
+    padding: 5rem;
+
+    list-style: none;
+    text-align: center;
+    font-size: larger;
+}
+
+.italic{
+    color: #DEB992;
+    text-align: center;
+    font-style: italic;
+}
+
+#formoclock{
+    list-style: none;
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .accordion-header {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .accordion-header {
+    font-size: 22px;
+  }
+}
+
+/* SECTION PORTFOLIO */
+
+/* SECTION EXPERIENCES */
+
+#experience{
+    background-color: #001F33;
+    color: #DEB992;
+
+    margin: 1%;
+    padding-bottom: 25%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#exp-title{
+    color: #DEB992;
+
+    margin: 2%;
+
+    text-align: center;
+}
+
+.accordion-header {
+    background-color: #01243C;
+    color: #DEB992;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .accordion-header:hover {
+    background-color: #01243C;
+  }
+  
+  .accordion-header i {
+    margin-right: 10px;
+  }
+  
+  .accordion-content {
+    padding: 0 18px;
+    background-color: #001F33;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .accordion-container{
+      background-color: #01243C;
+  
+      margin-right: 20%;
+      margin-left: 20%;
+      border-radius: 1.2rem;
+      padding: 5rem;
+  
+      list-style: none;
+      text-align: center;
+      font-size: larger;
+  }
+  
+  .italic{
+      color: #DEB992;
+      text-align: center;
+      font-style: italic;
+  }
+
+  .crocus{
+    list-style: none;
+    text-align: justify;
+  }
+
+  @media (max-width: 767px) {
+    .accordion-header {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .accordion-header {
+      font-size: 22px;
+    }
+  }
