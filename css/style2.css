@@ -572,7 +572,7 @@ progress {
 }
 
 .list-inline-item {
-    justify-content: space-around;
+    display: inline-block;
     margin: 2rem;
 }
 .list-inline-item:not(:last-child) {
