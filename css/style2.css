@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #FAF5E9;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -614,7 +614,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #FAF5E9;
   border: 1px solid var(--bs-border-color);
   border-radius: 0.375rem;
   max-width: 100%;
@@ -2010,7 +2010,7 @@ progress {
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #FAF5E9;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -10964,10 +10964,8 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
   width: 5rem;
   height: 5rem;
-
 }
 
 section.resume-section {
